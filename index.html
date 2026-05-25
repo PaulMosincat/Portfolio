@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Portfolio for systems, infrastructure, automation, and data work."
+    >
+    <title>Paul Mosincat | Systems, Infrastructure, Automation, Data</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    >
+    <script>
+      if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+      }
+
+      if (!window.location.hash) {
+        window.scrollTo(0, 0);
+      }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Home">PM</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="experience.html">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="intro-title">
+        <div class="hero-bg" aria-hidden="true">
+          <div class="city"></div>
+          <div class="server-racks"></div>
+          <div class="network-lines"></div>
+        </div>
+
+        <div class="hero-content">
+          <div class="profile-card">
+            <img
+              class="avatar"
+              src="assets/profile-photo.png"
+              alt="Professional headshot of Paul Mosincat"
+            >
+            <p class="availability">Open to opportunities</p>
+          </div>
+
+          <div class="intro">
+            <p class="eyebrow">Systems | Infrastructure | Automation | Data</p>
+            <h1 id="intro-title">Hi, I'm Paul Mosincat.</h1>
+            <p class="lead">
+              Computer Science student focused on systems engineering,
+              networking, infrastructure, automation, and applied technology.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projects">View projects</a>
+              <a class="button secondary" href="https://www.linkedin.com/in/paul-mosincat-iit" target="_blank" rel="noreferrer">Contact me</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="work" aria-labelledby="work-title">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2 id="work-title">Building practical systems.</h2>
+        </div>
+        <p>
+          Computer Science student at Illinois Institute of Technology with
+          interests in systems engineering, networking, infrastructure,
+          automation, and applied technology. I enjoy building practical
+          projects that combine software, data, and engineering concepts, with a
+          growing focus on IoT systems, networking, and modern infrastructure
+          technologies.
+        </p>
+      </section>
+
+      <section class="section stats" aria-label="Portfolio highlights">
+        <article>
+          <span>01</span>
+          <h3>Infrastructure Mindset</h3>
+          <p>Comfortable thinking through reliability, organization, and repeatable workflows.</p>
+        </article>
+        <article>
+          <span>02</span>
+          <h3>Automation First</h3>
+          <p>Interested in scripts, scanners, and small systems that save time without adding noise.</p>
+        </article>
+        <article>
+          <span>03</span>
+          <h3>Data Awareness</h3>
+          <p>Able to collect, clean, structure, and present information so people can act on it.</p>
+        </article>
+      </section>
+
+      <section class="section split" id="skills" aria-labelledby="skills-title">
+        <div>
+          <p class="section-kicker">Skills</p>
+          <h2 id="skills-title">Simple strengths, clearly shown.</h2>
+          <p>
+            A practical mix of software, systems, infrastructure, and analytical
+            skills developed through coursework, projects, and hands-on work.
+          </p>
+        </div>
+        <div class="skill-groups">
+          <article class="skill-group">
+            <h3>Programming</h3>
+            <div class="skill-grid">
+              <span>Java</span>
+              <span>JavaScript</span>
+              <span>HTML/CSS</span>
+              <span>RISC-V Assembly</span>
+              <span>VHDL</span>
+            </div>
+          </article>
+
+          <article class="skill-group">
+            <h3>Systems &amp; Infrastructure</h3>
+            <div class="skill-grid">
+              <span>Digital Logic Design</span>
+              <span>FPGA Development</span>
+              <span>Networking</span>
+              <span>Power Systems</span>
+              <span>Industrial Automation</span>
+            </div>
+          </article>
+
+          <article class="skill-group">
+            <h3>Cloud &amp; Tools</h3>
+            <div class="skill-grid">
+              <span>AWS Cloud Foundations</span>
+              <span>AWS Core Services</span>
+              <span>Drupal CMS</span>
+              <span>GitHub</span>
+            </div>
+          </article>
+
+          <article class="skill-group">
+            <h3>Analysis &amp; Project Work</h3>
+            <div class="skill-grid">
+              <span>Project Planning</span>
+              <span>Systems Analysis</span>
+              <span>Analytical Thinking</span>
+              <span>Urban Transit Systems Analysis</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <div>
+            <p class="section-kicker">Projects</p>
+            <h2 id="projects-title">Selected work.</h2>
+          </div>
+          <a class="text-link" href="https://github.com/" target="_blank" rel="noreferrer">GitHub profile</a>
+        </div>
+
+        <div class="project-carousel" aria-label="Featured projects" aria-live="off">
+          <button class="carousel-button" type="button" data-carousel-prev aria-label="Previous project">
+            &lsaquo;
+          </button>
+
+          <div class="project-window">
+            <div class="project-track">
+              <article class="project-card">
+                <p class="project-type">Web Application / Team Project</p>
+                <h3>JPMC IPRO Budget Management Web Application</h3>
+                <p>
+                  Collaborated with JPMorgan Chase mentors and a student team to
+                  build a budget management web application prototype.
+                </p>
+                <p class="project-meta">HTML, CSS, JavaScript, MySQL, team development</p>
+                <a href="projects/jpmc-budget-management.html" aria-label="View JPMC IPRO Budget Management Web Application project">View project</a>
+              </article>
+
+              <article class="project-card">
+                <p class="project-type">Assembly / Systems</p>
+                <h3>RISC-V Mastermind Game</h3>
+                <p>
+                  Developed a console-based Mastermind game in RISC-V assembly
+                  using the RARS simulator.
+                </p>
+                <p class="project-meta">RISC-V, RARS, input validation, feedback logic</p>
+                <a href="projects/riscv-mastermind.html" aria-label="View RISC-V Mastermind Game project">View project</a>
+              </article>
+
+              <article class="project-card">
+                <p class="project-type">Assembly / Game Logic</p>
+                <h3>RISC-V Tetris</h3>
+                <p>
+                  Created a Tetris game in RISC-V assembly focused on
+                  low-level systems programming and core game mechanics.
+                </p>
+                <p class="project-meta">RISC-V, game loops, collision detection, memory</p>
+                <a href="projects/riscv-tetris.html" aria-label="View RISC-V Tetris project">View project</a>
+              </article>
+
+              <article class="project-card">
+                <p class="project-type">Hardware / VHDL</p>
+                <h3>FPGA Digital System Design</h3>
+                <p>
+                  Designed and implemented FPGA-based digital systems using
+                  VHDL, Vivado, hardware labs, and simulation tools.
+                </p>
+                <p class="project-meta">VHDL, Vivado, FPGA labs, digital logic</p>
+                <a href="projects/fpga-digital-system-design.html" aria-label="View FPGA Digital System Design project">View project</a>
+              </article>
+
+              <article class="project-card">
+                <p class="project-type">Java / Data Processing</p>
+                <h3>Data Sorter</h3>
+                <p>
+                  Developed a Java data sorting and order management application
+                  using object-oriented programming and file processing.
+                </p>
+                <p class="project-meta">Java, OOP, file processing, exception handling</p>
+                <a href="projects/data-sorter.html" aria-label="View Data Sorter project">View project</a>
+              </article>
+
+              <article class="project-card">
+                <p class="project-type">In Progress / Automation</p>
+                <h3>Hard Drive Scanner Inventory Tool</h3>
+                <p>
+                  Building a scanner-based inventory tool for capturing,
+                  storing, and organizing hard drive information.
+                </p>
+                <p class="project-meta">Python, local database, inventory workflow, automation</p>
+                <a href="projects/hard-drive-scanner.html" aria-label="View Hard Drive Scanner Inventory Tool project">View project</a>
+              </article>
+
+              <article class="project-card">
+                <p class="project-type">Systems Analysis / Research</p>
+                <h3>Urban Transit Systems Analysis</h3>
+                <p>
+                  Analyzed technology, infrastructure, governance, and policy
+                  across major international transit systems.
+                </p>
+                <p class="project-meta">Research, systems analysis, infrastructure, policy</p>
+                <a href="projects/urban-transit-systems-analysis.html" aria-label="View Urban Transit Systems Analysis project">View project</a>
+              </article>
+            </div>
+          </div>
+
+          <button class="carousel-button" type="button" data-carousel-next aria-label="Next project">
+            &rsaquo;
+          </button>
+        </div>
+
+        <div class="carousel-dots" aria-label="Project carousel position">
+          <button type="button" data-carousel-dot="0" aria-label="Show JPMC IPRO Budget Management Web Application project"></button>
+          <button type="button" data-carousel-dot="1" aria-label="Show RISC-V Mastermind Game project"></button>
+          <button type="button" data-carousel-dot="2" aria-label="Show RISC-V Tetris project"></button>
+          <button type="button" data-carousel-dot="3" aria-label="Show FPGA Digital System Design project"></button>
+          <button type="button" data-carousel-dot="4" aria-label="Show Data Sorter project"></button>
+          <button type="button" data-carousel-dot="5" aria-label="Show Hard Drive Scanner Inventory Tool project"></button>
+          <button type="button" data-carousel-dot="6" aria-label="Show Urban Transit Systems Analysis project"></button>
+        </div>
+        <div class="carousel-controls">
+          <button class="text-button" type="button" data-carousel-toggle aria-pressed="false">
+            Pause carousel
+          </button>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="section-kicker">Contact</p>
+          <h2 id="contact-title">Let's connect.</h2>
+          <p>
+            I am always open to learning, collaborating, and discussing roles
+            where careful technical work can make a practical difference.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <a class="button primary" href="https://www.linkedin.com/in/paul-mosincat-iit" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="button secondary" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
