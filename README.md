@@ -1,19 +1,27 @@
-# Personal Portfolio
+# Paul Mosincat Portfolio
 
-A simple static portfolio site for GitHub Pages.
+A personal portfolio website showcasing my background, technical skills, projects, and experience in computer science, systems, infrastructure, automation, and applied technology.
 
-## Customize
+## Pages
 
-Update these placeholders before publishing:
+- `index.html` - Home page with about, skills, projects, and contact
+- `experience.html` - Work experience, technical learning, and service roles
+- `projects/` - Individual project detail pages
 
-- GitHub URL
-- Project card titles, descriptions, and links
-- Skills you want to highlight
-- `assets/profile-photo.png` if you want to use a different headshot
+## Built With
 
-## Publish With GitHub Pages
+- HTML
+- CSS
+- JavaScript
 
-1. Push this folder to a GitHub repository.
-2. In GitHub, open **Settings > Pages**.
-3. Set the source to the `main` branch and root folder.
-4. Save, then open the Pages URL GitHub gives you.
+## Sections
+
+- About Me
+- Technical Skills
+- Projects
+- Experience
+- Contact
+
+## Contact
+
+LinkedIn: https://www.linkedin.com/in/paul-mosincat-iit
